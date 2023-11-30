@@ -1,52 +1,96 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<style>
-body {
-    background: lightgreen;
-    font-family: Verdana;
-}  
-#content {
-    background: lightyellow;
-    min-width: 200px;
-    max-width: 500px;
-    padding: 50px;
-    margin: auto;
-    margin-top: -50px;
-    line-height: 150%;
-}
-h1 {
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-align: center;
-}
-h2 {
-    font-size: 14px;
-    text-align: center;
-}
-h3 {
-    font-size: 12px;
-}
-</style>
-</head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+</head>
+
 <body>
-    <div id="content">
-        <h1>Brendan Kilburn</h1>
-        <h2>Sophmore in Greenville, South Carolina</h2>
-        
-         <p>I am a sophmore at Bob Jones University and my major is Ministry and Leadership. I want to go into full time ministry as a church planter overseas when I graduate.</p>
-         <p>
-            I attend Morningside Baptist in Greenville SC. My favorite website is  
-            <a href="https://justinpeters.org/">here</a>, and you can email me  
-            <a href="mailto:bkilb668@students.bju.edu">here</a>.
-         </p> 
-         <p>
-            I enjoy reading books about theology and I love sharing the Gospel in downtown Greenville.
-         </p>
-        <h3>EDUCATION</h3>
-        Computer Science<br />
-        Bob Jones University<br />
-        Example image:
-        <img src="https://cs.bju.edu/media/bju-math-division/bju-computer-science/site-assets/images/cs-logo-main.png" />
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="index.html">Brand</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" style="font-size: 24px;"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="post.html">Blog Post</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Dropdown </a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background: url(&quot;assets/img/home-bg.jpg&quot;), rgb(96,112,126);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="site-heading" style="text-shadow: 0px 0px rgb(255,255,255);">
+                        <h1 style="color: rgb(255,255,255);"><em><span style="font-weight: normal !important; color: rgb(96, 198, 89); background-color: rgb(214, 221, 214);">Brendan's Blog</span></em></h1><span class="subheading"><span style="color: rgb(43, 43, 40); background-color: rgb(214, 221, 214);">Welcome to my website!</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8">
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title">Daily Devotional 11/29/23</h2>
+                        <h3 class="post-subtitle">Ephesians 4:11</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Brendan Kilburn on November 29, 2023</a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title">My Family</h2>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#"><em>Brendan Kilburn on November 17, 2023</em></a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title"> My Educational Background</h2>
+                        <h3 class="post-subtitle"></h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Brendan Kilburn on November 16, 2023</a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title"></h2>
+                        <h2 class="post-subtitle"><strong>My Career&nbsp;Aspirations</strong></h2>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Brendan Kilburn on November 15, 2023</a></p>
+                </div>
+                <hr>
+                <div class="clearfix"><button class="btn btn-primary float-right" type="button">Older Posts&nbsp;⇒</button></div>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></li>
+                    </ul>
+                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Brand 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/clean-blog.js"></script>
+    <script src="assets/js/untitled.js"></script>
 </body>
+
 </html>
